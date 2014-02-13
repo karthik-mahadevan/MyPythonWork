@@ -4,6 +4,7 @@ for i in range(1,10):
 	my_list.append([str(i)]*5)
 	my_dict[str(i)] = my_list
 	print i,my_dict[str(i)]
+print my_dict
 	#for j in range(1,1000):
 
 	#wait = raw_input("Type any key : ")
